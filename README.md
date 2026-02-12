@@ -179,7 +179,8 @@ To better understand how these files interact within the cluster:
 * **Target Revision:** The system is tracking the `HEAD` of the repository, ensuring that every commit to the `k8s/` path is automatically reflected in the cluster.
 * **Automated Governance:** The last synchronization occurred recently, proving that the automated deployment pipeline is active and responsive.
 
-<img width="449" height="433" alt="image" src="https://github.com/user-attachments/assets/395406d5-97a4-40f0-91b3-a35ff5def349" />
+<img width="489" height="426" alt="image" src="https://github.com/user-attachments/assets/e862f54f-3b82-4ed9-907f-f33f06192ae5" />
+
 
 
 #### **2. Visual Infrastructure Topology**
@@ -190,7 +191,8 @@ To better understand how these files interact within the cluster:
 * **Service Discovery & Config:** The presence of `agriculture-app-service` (svc) and `agri-dashboard-config` (cm) confirms that network routing and dashboard-as-code configurations are correctly provisioned.
 * **Observability Integration:** The `agriculture-app-monitor` (ServiceMonitor) is successfully deployed, enabling **Prometheus** to automatically discover and scrape application-level metrics.
 
-<img width="1717" height="521" alt="image" src="https://github.com/user-attachments/assets/f43c66b9-abcc-4b7b-bd80-fcc6d2f3953d" />
+<img width="1471" height="346" alt="image" src="https://github.com/user-attachments/assets/4881e750-ea10-4be8-8200-1f4eab049282" />
+
 
 
 ---
