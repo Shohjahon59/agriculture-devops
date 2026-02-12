@@ -21,3 +21,4 @@ jobs:
 
       - name: Push Docker image
         run: docker push rashidov2005/agriculture-app:latest
+        
